@@ -5,7 +5,7 @@ Repository ini berisi proyek *end-to-end* yang mencakup pengumpulan data (*web s
 ## 🎯 Tujuan Penelitian
 Melakukan segmentasi pasar lowongan kerja untuk menemukan profil klaster pekerjaan di Banten berdasarkan enam variabel utama: Lokasi, Tipe pekerjaan, Level pekerjaan, Bidang industri, Pendidikan tertinggi, dan Gaji.
 
-## 🛠️ Teknologi & Library yang Digunakan
+## 🛠️ Teknologi dan Library yang Digunakan
 
 **1. Pengumpulan Data (Web Scraping)**
 *   **Bahasa:** Python
@@ -15,7 +15,7 @@ Melakukan segmentasi pasar lowongan kerja untuk menemukan profil klaster pekerja
 *   **Bahasa:** R
 *   **Library:** `readr`, `dplyr`, `stringr`, `forcats`, `ggplot2` (untuk prapemrosesan dan EDA), serta `cluster` dan `factoextra` (untuk tahap klasterisasi).
 
-## 📊 Metodologi Analisis
+## 📊 Metodologi Analisis Data
 
 1.  **Pengumpulan Data:** Menggunakan teknik sensus pada seluruh lowongan kerja aktif (1.108 lowongan dari 53 halaman listing) yang tayang publik pada 29 September 2026. Skrip dilengkapi sistem *retry* otomatis dan jeda 1,5 detik untuk mematuhi etika *scraping*.
 2.  **Pra-pemrosesan Data (Data Preparation):** Meliputi pembersihan duplikat, penghapusan spasi berlebih, perhitungan nilai tengah rentang gaji, penyederhanaan urutan level jenjang kerja, hingga derivasi variabel (seperti ekstraksi "Bidang Industri" langsung dari URL lowongan).
