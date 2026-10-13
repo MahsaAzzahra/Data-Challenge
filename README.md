@@ -8,7 +8,7 @@ Melakukan segmentasi pasar lowongan kerja untuk menemukan profil klaster pekerja
 ## 🛠️ Teknologi & Library yang Digunakan
 
 **1. Pengumpulan Data (Web Scraping)**
-*   **Bahasa:** Python 3.x
+*   **Bahasa:** Python
 *   **Library:** `requests` (mengambil halaman HTML), `BeautifulSoup` (membaca isi HTML), `pandas` (menyusun tabel dan ekspor CSV), serta `urllib.robotparser` (mematuhi aturan robots.txt).
 
 **2. Pra-pemrosesan & Analisis Data (Clustering)**
